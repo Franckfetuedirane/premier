@@ -1,0 +1,28 @@
+en francais
+Transformer un script Python (.py) en fichier exécutable (.exe) est une méthode pratique pour distribuer votre application sans nécessiter l'installation de Python. Voici les étapes de base à l'aide d'un outil appelé pyinstaller:
+
+Installer PyInstaller : Ouvrez votre invite de commande ou terminal et installez PyInstaller à l'aide de pip :
+
+bash
+
+
+pip install pyinstaller
+
+
+Naviguer vers le Répertoire de Votre Script : Utilisez la ligne de commande pour naviguer vers le répertoire où se trouve votre script Python.
+
+Créer le Fichier Exécutable : Exécutez la commande suivante pour créer un exécutable :
+
+bash
+
+
+pyinstaller --onefile your_script.py
+
+
+Remplacez your_script.py par le nom de votre fichier Python. L'option --onefile regroupe tout en un seul fichier exécutable.
+
+Trouver Votre Fichier Exécutable : Une fois que PyInstaller a terminé, vous trouverez votre fichier exécutable dans le répertoire dist de votre projet.
+
+Exécuter Votre Fichier Exécutable : Vous pouvez maintenant distribuer le fichier .exe situé dans le répertoire dist aux autres. Ils pourront l'exécuter sans avoir besoin d'installer Python.
+
+Voilà! Vous avez réussi à créer un fichier exécutable à partir de votre script Python. Si vous rencontrez des problèmes ou avez des besoins spécifiques, n'hésitez pas à demander !
